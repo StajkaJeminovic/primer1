@@ -1,0 +1,693 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.
+body {
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    width: 1400px;
+    margin: 0 auto;
+}
+
+
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body{
+    max-width: 1400px;
+    padding: 0;
+    margin: 0;
+}
+.main{
+    
+}
+.row{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+ul li,a{
+    text-decoration: none;
+    
+}
+.container{
+    max-width: 940px;
+    margin: 0 16.43%;
+}
+#logo{
+    margin: 50px 0 50px 16.43%;
+    max-width: 200px;
+    float: left;
+    display: inline-block;
+}
+#navigation{
+    height: 120px;
+    display: block;
+   
+}
+#mainNav{
+    max-width: 600px;
+    float: left;
+    display: inline-block;
+    margin: 36px 0;
+
+}
+#nav{
+    
+    display: inline-block;
+    position: relative;
+}
+#nav li{
+    display: inline-block;
+    float: left;
+    height: 20px;
+    margin: 0 20px;
+}
+#nav li a{
+    width: 100%;
+    color: #777777;
+}
+
+#nav>li>ul{
+    position: absolute;
+    top: 30px;
+    left:90px;
+    display: none;
+
+}
+#nav>li>ul>li{
+    width: 70px;
+    padding: 5px 10px;
+    background-color: #f9f9f9;
+    color: #000;
+    border-bottom: 1px solid #ccc; 
+}
+ul#nav>li:nth-child(2):hover ul{
+    display: block;
+}
+
+#nav ul li{
+    display: block;
+    float: none;
+}
+
+#header{
+    background: url('../img/header.jpg') fixed;
+    background-repeat: no-repeat;
+    width: 1400px;
+    height: 410px;
+    display: block;
+    position:relative;
+    z-index: -2;
+}
+.col-xs-12{
+    padding: 0;
+}
+#capption{
+    
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+    color: #fff;
+    z-index: 22;
+    color: white;
+}
+
+#capption button{
+    height: 60px;
+    margin: 60px auto 120px auto;
+    border-radius: 30px;
+    background-color: #7cc576;
+    border: none;
+    opacity: 1;
+    width: 200px;
+}
+#capption h1{
+    margin: 120px 0 0 40px;
+}
+
+.crna{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    background-color: #000;
+    opacity: 0.75;
+    height: 410px;
+    width: 100%;
+
+}
+
+/* Second section*/
+
+#service{
+    width: 100%;
+    background-color: #fff;
+    height: 540px;
+    margin-bottom: 100px;
+}
+#service p{
+    color: #d6d6d6;
+}
+.centar{
+    text-align: center;
+}
+
+#service img{
+    margin: 0 auto;
+
+}
+#service h2{
+    margin-top: 100px;
+    font-size: 30px;
+    color: #000;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+#service>p {
+    font-size: 15px;
+    color: #C0C0C0;
+    margin-bottom: 90px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-top: 0;
+}
+
+.col-xs-41{
+    float: left;
+    width: 33.33%;
+    height: 180px;
+    margin-bottom: 100px;
+}
+
+/*TRECA SEKCIJA*/
+
+#sivo{
+    width: 430px;
+    background-color: #E9E9E9;
+    height: 617px;
+    position: relative;
+    float: left;
+}
+
+#gear{
+    background-image: url('../img/gear.jpg');
+    position: absolute;
+    top:100px;
+    right:0;
+    width:200px;
+    height: 400px;
+}
+#treca{
+    position: relative;
+}
+#treca img{
+    z-index: -2;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#treca .crna1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.75;
+    background-color: #000;
+    z-index: -1;
+    width: 100%;
+    height: 617px;
+}
+#treca section{
+    padding: 100px 0 100px 90px;
+    /*background: url('../img/more.jpg') no-repeat cover;*/
+    position: relative;
+    display: block;
+    float: left;
+    height: 600px;
+    max-width: 970px;
+    color: white;
+}
+
+#treca section h2 span{
+    color: #7CC576;
+}
+ #treca section button{
+    color: #000;
+    background-color:#7CC576; 
+    width: 180px;
+    height: 60px;
+    margin-bottom: 100px;margin-top: 50px;
+    border-radius: 35px;
+    border: none; 
+ }
+#treca ul{
+    list-style-image: url('../img/circle.png');
+}
+
+
+/*Ovde pocinje cetvrta sekcija*/
+#cetvrta{
+    width: 100%;
+}
+#naslov{
+    height: 200px;
+    text-align: center;
+    width: 100%;
+}
+#cetvrta h2,#cetvrta p{
+    display: block;
+    text-align: center;
+
+
+}
+#cetvrta>section, #cetvrta>aside{
+    max-width: 500px;
+    float: left;
+    display: inline-block;
+
+
+}
+#cetvrta>aside{
+    width: 600px;
+}
+#cetvrta section{
+    margin-left: 230px;
+}
+#cetvrta section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#cetvrta section ul li:first-child{
+    background-image: url('../img/e-comerce.png');
+    background-repeat: no-repeat;
+    padding-left: 80px;
+    padding-bottom:60px;
+    padding-top: 13px; 
+}
+#cetvrta section ul li:last-child{
+    background-image: url('../img/secure.png');
+    background-repeat: no-repeat;
+    padding-left: 80px;
+    padding-bottom:60px;
+    padding-top: 13px; 
+
+}
+#cetvrta section ul li:nth-child(2){
+    background-image: url('../img/seo.png');
+    background-repeat: no-repeat;
+    padding-left: 80px;
+    padding-bottom:60px;
+    padding-top: 13px; 
+}
+
+h2{
+    display: block;
+}
+/*Ovde pocinje peta sekcija*/
+
+#peta{
+    background-color: #f9f9f9;
+}
+#naslov2, #naslov3{ 
+    width: 100%;
+    text-align: center;
+    
+ }
+#peta .col-xs-41{
+    width: 22.38%;
+    text-align: center;
+
+    
+
+}
+#peta .col-xs-41:nth-last-child(3) {
+    margin-left: 16.43%;
+}
+#peta .col-xs-41 img{
+    margin:0 auto;
+}
+
+/*Ovde pocinje sesta sekcija*/
+
+#klijenti{
+    background-image: url('../img/clijenti.jpg');
+    background-repeat: no-repeat;
+    margin-left: 16.43%;
+    width: 67.14%;
+}
+
+.client{
+    height: 220px;
+   
+    
+}
+
+.client {
+    margin-top: 20px;
+}
+
+.client:first-child img{
+    float: left;
+}
+
+.client:last-child img{
+    float: right;
+}
+#quote1{
+    float: right;
+    width: 500px;
+
+}
+
+#quote2{
+    float: left;
+    width: 500px;
+        padding-top: 30px;
+    padding-left: 30px;
+}
+
+#quote1 p, #quote2 p{
+    float:right;
+}
+
+/*ovde pocinje sedma sekcija*/
+#sedma{
+    background-color: #7cc576;
+}
+#sedma>div{
+    text-align: center;
+    width: 600px;
+    height: 200px;
+    margin: 0 auto;
+
+}
+
+#sedma button{
+    width: 180px;
+    border-radius: 6px;
+    height: 50px;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+.row{
+    width: 100%;
+}
+#sedma img:last-child {
+display: none;
+}
+
+/*ovde pocimje osma sekcija*/
+
+#osma{
+    background-color: #222222;
+    color: #fff;
+        height: 374px;
+}
+
+#osma h3{
+    padding-left: 40px;
+}
+
+#contact li:nth-child(1){
+    background: url('../img/loc.png');
+    padding-left: 34px;
+    padding-bottom: 16px;
+    background-repeat: no-repeat;
+}
+#contact li:nth-child(2){
+    background: url('../img/tele.png');
+    padding-left: 34px;
+    padding-bottom: 16px;
+    background-repeat: no-repeat;
+}
+
+#contact li:nth-child(3){
+    background: url('../img/pismo.png');
+    padding-left: 34px;
+    padding-bottom: 16px;
+    background-repeat: no-repeat;
+}
+#post li:nth-child(1){
+    background: url('../img/prva.png');
+    padding-left: 40px;
+    padding-bottom: 16px;
+    background-repeat: no-repeat;
+}
+
+#post li:nth-child(2){
+    background: url('../img/treca.png');
+    padding-left: 40px;
+    padding-bottom: 16px;
+    background-repeat: no-repeat;
+}
+
+#post li:nth-child(3){
+    background: url('../img/prva.png');
+    padding-left: 40px;
+    padding-bottom: 16px;
+    background-repeat: no-repeat;
+}
+
+#post li:nth-child(4){
+    background: url('../img/prva.png');
+    padding-left: 40px;
+    padding-bottom: 16px;
+    background-repeat: no-repeat;
+}
+
+#post li:nth-child(5){
+    background: url('../img/play.png');
+    padding-left: 40px;
+    padding-bottom: 16px;
+    background-repeat: no-repeat;
+}
+
+
+#tweet li{
+    background: url('../img/tweet.png');
+    padding-left: 40px;
+    padding-bottom: 16px;
+    background-repeat: no-repeat;
+}
+
+/*ovde pocinje deveta sekcija*/
+
+#deveta{
+    padding:0 16.43%;
+    max-width: 1400px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+
+}
+#deveta p{
+    vertical-align: middle;
+}
+
+.social{
+    margin:0 auto;
+    height: 50px;
+    
+}
+.social img{
+    
+}
+#margina{
+    margin-left: 16.43%;
+}
+.col-xs-41{
+    width: 22.38%;
+}
+
+.col-xs-41:last-child{
+    margin-right: 16.43%;
+}
+.col-xs-41:nth-child(1){
+    margin-left: 16.43%;
+}
+#pull{display: none;}
+.show{display: block;}
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) and (max-width: 800px) {
+    #pull{
+        display: block;
+    }
+    #logo{
+        display: block;
+        width: 100%;
+        float: none;
+        height: 50px;
+        margin: 10px;
+    }
+    
+    #nav {
+        display: none;
+        background-color: #fff;
+        padding: 10px 20px;
+        width: 100%;
+        align-items: start;
+    }
+
+    #mainNav{
+        position: relative;
+        float: none;
+        display: block;
+        width: 100%;
+        margin: 10px;
+         background-color: #fff;
+    }
+    #mainNav>ul{
+        position: absolute;
+        top: 12px;
+        left: -15px;
+        width: 100%;
+    }
+    #mainNav>ul> li{
+        min-width: 480px;
+        padding: 20px;
+        width: 100%;
+        background-color: #fff;
+    }
+    #header{
+        height: 530px;
+    }
+    #header button{
+        margin-top: 20px;
+    }
+    #crna{
+        height: 530px;
+        position: fixed;
+    }
+    #sivo{
+        display: none;
+            }
+             #service{
+                height: auto;
+            }
+    #service .col-xs-41{
+        margin: 0 auto;
+        width: 100%;
+        height: 300px;
+    }
+#naslov1{
+    width: 100%;
+    text-align: center;
+}
+#cetvrta section {
+    width: 100%;
+    margin-left: 10%;
+}
+
+#cetvrta aside{
+    display: none;
+
+}
+#peta .col-xs-41{
+        height: 300px;
+        margin: 0 auto;
+        width: 100%;
+}
+    .col-xs-41{
+        width: 100%;
+        display: block;
+    }
+    #peta .col-xs-41{
+        width: 100%;
+        display: block;
+    }
+    .client{
+        margin: 0;
+         background-color:#f9f9f9;
+    background-image: none;
+    }
+.client img, #quote1, #quote2{
+    margin: 0 auto;
+    float: none;
+    display: block;
+    width: 100%;
+
+
+}
+   #slika{
+        display: none;
+    }
+    #sedma img:last-child {
+display: block;
+}
+#peta .col-xs-41:nth-last-child(3) {
+    margin:0 auto;
+}
+
+#osma .col-xs-41{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+}
+
+   @media screen and (max-width: 1024px) {
+       #sivo{
+        display: none;
+       }
+        #header, .crna{
+            height: 440px;
+        }
+        #cetvrta aside{
+            display: none;
+        }
+        #treca{
+            height: 650px;
+        }
+        #quote1{
+            width: 440px;
+        }
+        #quote2{
+            width: 408px;
+        }
+        #sedma img{
+            width: 100%;
+        }
+}
